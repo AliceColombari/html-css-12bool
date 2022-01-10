@@ -41,6 +41,10 @@ h1{
     margin-bottom: 5px;
 }
 
+.box.box-doppia{
+    min-height: 100px;
+}
+
 .around{
     justify-content: space-around;
 }
@@ -48,3 +52,4 @@ h1{
 .between{
     justify-content: space-between;
 }
+
