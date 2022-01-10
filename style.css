@@ -1,21 +1,43 @@
 
 /* STILIZZAZIONI */
-.debug .row{
-    background-color: pink;
-    min-height: 100px;
+h1{
+    font-size: 25px;
+    margin-bottom: 5px;
 }
 
 .debug .box{
     min-height: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(4,106,251);
     color: #fff;
-    padding: 15px;
     border: solid 1px #fff;
 }
 
-.debug .row .row .box{
+.box.box-white{
+    min-height: 30px;
+}
+
+.debug .row .row .nasted{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(4,228,99);
-    color: black;
-    /* margin: 10px; */
+}
+
+.box.nasted {
+    border: 1px solid rgb(4, 106,251);
+}
+
+.debug .row .row {
+    background-color: rgb(4,106,251);
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.bottom{
+    margin-bottom: 5px;
 }
