@@ -1,0 +1,21 @@
+
+/* STILIZZAZIONI */
+.debug .row{
+    background-color: pink;
+    min-height: 100px;
+}
+
+.debug .box{
+    min-height: 50px;
+    text-align: center;
+    background-color: rgb(4,106,251);
+    color: #fff;
+    padding: 15px;
+    border: solid 1px #fff;
+}
+
+.debug .row .row .box{
+    background-color: rgb(4,228,99);
+    color: black;
+    /* margin: 10px; */
+}
